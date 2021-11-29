@@ -1,0 +1,30 @@
+[[package]]
+name = "getch"
+version = "1.0"
+description = "Does single char input, like C getch/getche"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pytube"
+version = "11.0.1"
+description = "Python 3 library for downloading YouTube Videos."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "4f5150d89eaf249a2cbc2d08e2dbbd7208bc8f75c725e98090ef692143eaab6e"
+
+[metadata.files]
+getch = [
+    {file = "getch-1.0-python2.tar.gz", hash = "sha256:be451438f7a2b389f96753aea39b6ed2540a390f1b9a12badcbc110cf9a5ce7f"},
+    {file = "getch-1.0.tar.gz", hash = "sha256:a6c22717c10051ce65b8fb7bddb171af705b1175e694a73be956990f6089d8b1"},
+]
+pytube = [
+    {file = "pytube-11.0.1-py3-none-any.whl", hash = "sha256:d4dfea7394d7662edac3831432b349b2afac984e0d0bc4bdb611ec1f3fc16318"},
+    {file = "pytube-11.0.1.tar.gz", hash = "sha256:47643a6ff553cbc4d6be748ff14c9c45f79984e15005adff25d62b18110abe43"},
+]
